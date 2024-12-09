@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.source_files = 'libWeiboSDK/*.{h,m}'
   s.resource     = 'libWeiboSDK/WeiboSDK.bundle'
-  s.resource_bundles = {'libWeiboSDK'=>['libWeiboSDK/PrivacyInfo.xcprivacy']}
+  s.resource_bundles = {'WeiBoSDK'=>['libWeiboSDK/PrivacyInfo.xcprivacy']}
   s.vendored_libraries  = 'libWeiboSDK/libWeiboSDK.a'
   s.frameworks   = 'Photos', 'ImageIO', 'SystemConfiguration', 'CoreText', 'QuartzCore', 'Security', 'UIKit', 'Foundation', 'CoreGraphics','CoreTelephony','WebKit'
   s.libraries = 'sqlite3', 'z'
